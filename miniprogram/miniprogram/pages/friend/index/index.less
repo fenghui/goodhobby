@@ -1,0 +1,56 @@
+.friend-item {
+  background-color: #fff;
+  margin-bottom: 20rpx;
+  padding: 40rpx;
+  align-self: flex-start;
+  .header {
+    display: flex;
+    flex-direction: row;
+    .avatar {
+      width: 120rpx;
+      height: 120rpx;
+      border-radius: 50%;
+      background: #fff;
+      padding: 10rpx;
+    }
+    .info {
+      align-self: center;
+      margin-left: 20rpx;
+      display: flex;
+      flex-direction: column;
+      .user-name {
+        font-size: 28rpx;
+      }
+      .pub-date {
+        font-size: 20rpx;
+      }
+    }
+  }
+  .content-text {
+    font-size: 24rpx;
+  }
+  .content-pics {
+    display: flex;
+    flex-wrap: wrap;
+    .item {
+      flex-basis: 33.333%;
+      padding: 5rpx;
+      height: 30vw;
+      box-sizing: border-box;
+    }
+    image {
+      width: 100%;
+      height: 100%
+    }
+  }
+  .comment {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    .comment-count {
+      font-size: 28rpx;
+      margin: 0 10rpx;
+    }
+  }
+}

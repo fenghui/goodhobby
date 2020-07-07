@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "习惯养成中",
+  "usingComponents": {
+    "mp-icon": "../../weui/components/icon/icon"
+  }
+}

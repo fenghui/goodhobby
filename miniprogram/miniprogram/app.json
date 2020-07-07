@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/my/index/index",
+    "pages/index/main/main",
+    "pages/logs/logs",
+    "pages/hot/index/index",
+    "pages/friend/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "cdcdcd",
+    "tabBarColor": "#f00f00",
+    "list": [
+      {
+        "pagePath": "pages/index/main/main",
+        "text": "养成中",
+        "iconPath": "image/icon_insist.png",
+        "selectedIconPath": "image/icon_insist_selected.png"
+      },
+      {
+        "pagePath": "pages/hot/index/index",
+        "text": "热门",
+        "iconPath": "image/icon_hot.png",
+        "selectedIconPath": "image/icon_hot_selected.png"
+      },
+      {
+        "pagePath": "pages/friend/index/index",
+        "text": "惯友圈",
+        "iconPath": "image/icon_friend.png",
+        "selectedIconPath": "image/icon_friend_selected.png"
+      },
+      {
+        "pagePath": "pages/my/index/index",
+        "text": "我的",
+        "iconPath": "image/icon_my.png",
+        "selectedIconPath": "image/icon_my_selected.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

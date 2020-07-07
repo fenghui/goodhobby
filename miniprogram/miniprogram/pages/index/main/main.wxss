@@ -1,0 +1,18 @@
+/**index.wxss**/
+.btn-add-goodhobby {
+  position: fixed;
+  bottom: 3vw;
+  right: 3vw;
+  width: 12vw;
+  height: 12vw;
+  border-radius: 50%;
+  background-color: #3cc51f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .btn-add-goodhobby:active, */
+.btn-add-goodhobby:hover {
+  background-color: #01c51f;
+}

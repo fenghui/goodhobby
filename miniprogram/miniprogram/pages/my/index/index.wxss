@@ -1,0 +1,53 @@
+.header {
+  width: 100vw;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 4vw 2vw;
+}
+.header .header-top {
+  display: flex;
+}
+.header .header-top .avatar {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+}
+.header .header-top .name {
+  margin-left: 20rpx;
+  align-self: center;
+}
+.header .punch-info {
+  margin-top: 20rpx;
+  padding-top: 20rpx;
+  border-top: 1rpx solid rgba(200, 200, 200, 0.6);
+  display: flex;
+  flex-direction: row;
+}
+.header .punch-info .punch-info-item {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.header .punch-info .punch-info-item .item-num {
+  font-size: 50rpx;
+}
+.header .punch-info .punch-info-item .item-tit {
+  font-size: 24rpx;
+  color: #828282;
+}
+.header .punch-info .split {
+  border-right: 2rpx solid rgba(200, 200, 200, 0.8);
+}
+.list {
+  margin-top: 20rpx;
+  width: 100vw;
+}
+.list .list-item {
+  margin-top: 2rpx;
+  padding: 10rpx 20rpx;
+  background-color: #fff;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+}

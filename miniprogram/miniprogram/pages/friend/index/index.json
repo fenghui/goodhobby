@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "惯友圈",
+  "usingComponents": {
+    "mp-grids": "../../weui/components/grids/grids",
+    "mp-icon": "../../weui/components/icon/icon"
+  }
+}
